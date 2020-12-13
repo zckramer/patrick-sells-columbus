@@ -11,11 +11,11 @@ function App() {
       <video autoPlay loop muted 
         src={placeholderVideo} type="video/mp4"
         style= {{
-          position: "absolute",
-          width: "100%",
+          position: "fixed",
+          width: "100vw",
           left: "50%",
           top: "50%",
-          height: "100%",
+          height: "100vh",
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
           zIndex: "-1"
